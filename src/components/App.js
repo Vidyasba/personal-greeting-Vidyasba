@@ -10,7 +10,7 @@ const App = () => {
   return (
     <div>
       <form>
-         <label>Enter your name:</label>
+         <p>Enter your name:</p>
         <input onChange={onChangeText}/>
       </form>
         {inputValue && <p>{`Hello ${inputValue}!`} </p>}
